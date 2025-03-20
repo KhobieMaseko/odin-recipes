@@ -1,0 +1,11 @@
+/* some basic css for basic webpage */
+.text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    /* width: 50%; */
+  }
