@@ -1,17 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <meta charset="UTF-8">
-        <title>Odin Recipes</title>
-    </head>
-    <body>
-        <h1 class="text">Odin Recipes</h1>
-        <img src="./images/recipes.jpg" alt="Recipes Image" height="183" width="275">
-            <ul class="text">
-                <li><a href="recipes/quiche.html">Quiche</a></li><br />
-                <li><a href="recipes/enchiladas.html">Enchiladas</a></li><br />
-                <li><a href="recipes/black_bean_breakfast_bowl.html">Black Bean Breakfast Bowl</a></li><br />
-            </ul>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Odin Recipes</h1>
+        <p>Delicious recipes for every occasion</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+
+    <div class="container">
+        <h2>Featured Recipes</h2>
+
+        <div class="recipe-grid">
+            <div class="recipe-card">
+                <img src="./images/quiche.jpg" alt="Quiche">
+                <div class="recipe-card-content">
+                    <h2>Quiche</h2>
+                    <p>A delicious egg-based dish perfect for breakfast or brunch.</p>
+                    <a href="recipes/quiche.html" class="btn">View Recipe</a>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="./images/enchiladas.jpg" alt="Enchiladas">
+                <div class="recipe-card-content">
+                    <h2>Enchiladas</h2>
+                    <p>Hearty breakfast enchiladas with hashbrowns and cheese.</p>
+                    <a href="recipes/enchiladas.html" class="btn">View Recipe</a>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="./images/black_bean_breakfast_bowl.jpg" alt="Black Bean Breakfast Bowl">
+                <div class="recipe-card-content">
+                    <h2>Black Bean Breakfast Bowl</h2>
+                    <p>A quick, protein-packed breakfast without the carbs.</p>
+                    <a href="recipes/black_bean_breakfast_bowl.html" class="btn">View Recipe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Odin Recipes. All rights reserved.</p>
+    </footer>
+</body>
 </html>
